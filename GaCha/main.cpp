@@ -6,16 +6,14 @@
 using namespace std;
 
 int main(int argc,char* argv[]){
-	
-	if(argc>1){
-		for(int i=1;i<argc;i++) cout<<argv[i]<<",";
-		cout<<endl;
-	}else{
-		cout<<"Your Input Is: ";
-		string s;
-		cin>>s;
-		cout<<s<<endl;
-	}
 
+	vector<string> s {"SSR","SR","R","N","G"};
+	vector<string> res;
+
+	Gacha g{s,{1.0f}};	
+	
+	res=g.getReward(10);
+	for(auto i:res)cout<<i<<",";
+	cout<<endl;
 	return 0;
 }
