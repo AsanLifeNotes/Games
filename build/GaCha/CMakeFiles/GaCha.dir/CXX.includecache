@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/var/www/html/github/Games/GaCha/gacha.h
+
+/var/www/html/github/Games/GaCha/main.cpp
+iostream
+-
+string
+-
+gacha.h
+/var/www/html/github/Games/GaCha/gacha.h
+
