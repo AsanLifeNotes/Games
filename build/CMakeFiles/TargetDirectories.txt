@@ -1,5 +1,0 @@
-/var/www/html/github/Games/build/CMakeFiles/rebuild_cache.dir
-/var/www/html/github/Games/build/CMakeFiles/edit_cache.dir
-/var/www/html/github/Games/build/GaCha/CMakeFiles/rebuild_cache.dir
-/var/www/html/github/Games/build/GaCha/CMakeFiles/GaCha.dir
-/var/www/html/github/Games/build/GaCha/CMakeFiles/edit_cache.dir
